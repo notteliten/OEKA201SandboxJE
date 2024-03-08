@@ -1,0 +1,38 @@
+2+2
+## Blog
+ 
+## Introduction
+ 
+## Data
+ 
+ **the text here should be bold** and not bold here
+ 
+ *text italic* more text here
+
+[Quarto](https://quarto.org)
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+```{r, echo=T, eval=F}
+2+2
+```
+## Todos 1
+```{r}
+numbers <- c(4,5,8,11)
+sum(numbers)
+```
+## Todos 2
+```{r}
+#sqrt(c(4,9))
+```
+## Todos 3
+```{r}
+#?rnorm
+rnorm(n=100, mean=0, sd=1)
+```
+
+
